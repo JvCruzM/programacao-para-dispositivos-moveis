@@ -50,6 +50,12 @@
         "projectId": "aab1d101-3ecd-4b7f-8b7b-fd0e7203aa37"
       }
     },
-    "owner": "jvcruzms-team"
+    "owner": "jvcruzms-team",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/aab1d101-3ecd-4b7f-8b7b-fd0e7203aa37"
+    }
   }
 }

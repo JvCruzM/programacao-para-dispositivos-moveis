@@ -11,10 +11,8 @@ interface MiniBioProps {
 export default function MiniBio({ photoUri, name, bioText }: MiniBioProps) {
   return (
     <View style={styles.card}>
-      {/* Componente Profile sendo reutilizado */}
       <Profile photoUri={photoUri} name={name} />
       
-      {/* Frase / Bio */}
       <Text style={styles.bio}>{bioText}</Text>
     </View>
   );
