@@ -33,8 +33,6 @@ export default function CalculadoraIdade() {
 
     let ano = anoAtual - idadeNumero;
 
-    // Se o aniversário ainda não aconteceu neste ano,
-    // a pessoa nasceu um ano antes.
     if (
       mesNumero > mesAtual ||
       (mesNumero === mesAtual && diaNumero > diaAtual)
