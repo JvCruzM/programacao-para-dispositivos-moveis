@@ -346,17 +346,6 @@ const styles = StyleSheet.create({
     marginTop: 25,
   },
 
-  controleRodada: {
-    alignItems: "center",
-    marginTop: 25,
-    gap: 12,
-  },
-
-  resultadoRodada: {
-    fontSize: 18,
-    fontWeight: "bold",
-  },
-
   botaoProxima: {
     backgroundColor: "#6366f1",
     paddingHorizontal: 25,
